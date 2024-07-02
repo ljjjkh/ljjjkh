@@ -2,7 +2,18 @@ import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
 from rich.console import Console as sol
-from bs4 import BeautifulSoup as sop
+from bs4 import Traceback (most recent call last):
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 31, in <module>
+    start(fakepyfile,mainpyfile)
+  File "/data/user/0/ru.iiec.pydroid3/files/accomp_files/iiec_run/iiec_run.py", line 30, in start
+    exec(open(mainpyfile).read(),  __main__.__dict__)
+  File "<string>", line 8, in <module>
+  File "<string>", line 810
+    print ("\r%s  \033[0m              ➛ %s%s"%(P,H,game[i].replace("Ditambahkan
+                     ^
+SyntaxError: EOL while scanning string literal
+
+[Program finished] as sop
 from bs4 import BeautifulSoup as parser
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
